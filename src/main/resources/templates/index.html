@@ -5,6 +5,8 @@
     <title>Hello Thymeleaf</title>
 </head>
 <body>
-Hello Thymeleaf
+    <div th:insert="~{header :: header}"></div>
+    <p th:text="'이곳은 본문이 작성될 예정입니다.'"></p>
+    <div th:insert="~{footer :: footer}"></div>
 </body>
 </html>
